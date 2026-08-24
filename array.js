@@ -18,3 +18,7 @@ console.log(x);
 //string array
 let name = ["Mortuja", "Reyad"];
 console.log(name[1]);
+
+//common mistake
+let age = [10, 20];
+console.log(age[2]); //undefined

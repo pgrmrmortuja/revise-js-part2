@@ -16,6 +16,10 @@ user.class = "MSC";
 
 
 console.log(user);
+
+//dynamic
+console.log(user["name"]);
+
 console.log(typeof(user));
 console.log(typeof(user.age));
 
@@ -31,6 +35,10 @@ const students = [
 students[1].age = 24;
 
 console.log(students);
+
+//dynamic
+console.log(students[0]["name"])
+
 console.log(students[0]);
 console.log(typeof(students))
 console.log(typeof(students[0]))

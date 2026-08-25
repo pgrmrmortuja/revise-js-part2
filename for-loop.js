@@ -3,6 +3,11 @@ for (let i = 1; i <= 5; i++) {
     console.log(i);
 }
 
+//reverse loop
+for(let r = 5; r >= 0; r--){
+    console.log(r);
+}
+
 //for---of
 const friends = ["Reyad", "Mortuja", "Noman"];
 

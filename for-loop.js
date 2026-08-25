@@ -11,7 +11,7 @@ for(let r = 5; r >= 0; r--){
 //for---of
 const friends = ["Reyad", "Mortuja", "Noman"];
 
-for(let i = 0; i < friends.length; i++){
+for(let i = 0; i < friends.length - 1; i++){
     console.log(friends[i]);
 }
 

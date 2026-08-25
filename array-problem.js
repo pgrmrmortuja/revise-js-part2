@@ -8,3 +8,24 @@ for(i = 0; i <= arr.length - 1; i++){
 
 const avg = sum / arr.length;
 console.log(sum , avg);
+
+//max,min
+let max = arr[0];
+let min = arr[0];
+for(a of arr){
+    if(a > max){
+        max = a;
+    } else{
+        min = a;
+    }
+}
+console.log(max, min);
+
+//min
+// let min = arr[0];
+// for(a of arr){
+//     if(a < min){
+//         min = a;
+//     }
+// }
+// console.log(min)

@@ -9,8 +9,7 @@ x.pop(4);
 //add to first
 x.unshift(5);
 
-//remove from first
-x.shift(5);
+
 
 console.log(x);
 
